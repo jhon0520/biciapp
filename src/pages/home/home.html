@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title class="titulo">
+      Biciapp
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="content">
+
+  <div><img class="avatar" src="../../assets/img/principal.png"></div>
+
+  <br>
+
+  <div class="login">
+    <ion-item >
+      <ion-label fixed>Cedula</ion-label>
+      <ion-input type="number" [(ngModel)]="cedula"></ion-input>
+    </ion-item>
+
+    <ion-item >
+      <ion-label fixed>Contraseña</ion-label>
+      <ion-input type="password" [(ngModel)]="contrasena"></ion-input>
+    </ion-item>
+
+  </div>
+
+  <div class="login-button">
+    <button ion-button clear
+    (click)="login()">Conectate</button>
+  </div>
+
+  <div class="singinup-button">
+    <button ion-button clear
+    (click)="irsinginup()">
+    Singin up
+  </button>
+
+  </div>
+
+
+
+</ion-content>

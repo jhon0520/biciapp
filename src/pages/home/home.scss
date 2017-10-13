@@ -1,0 +1,46 @@
+page-home {
+
+      .titulo{
+          text-align: center;
+      }
+
+      .content{
+          background-color:#9ac3e2;
+      }
+
+      .avatar {
+          /* cambia estos dos valores para definir el tamaño de tu círculo */
+          height: 250px;
+          width: 250px;
+          display:block;
+          margin:auto;
+          margin-top: 25px;
+          /* los siguientes valores son independientes del tamaño del círculo */
+          background-repeat: no-repeat;
+          background-position: 50%;
+          border-radius: 50%;
+          background-size: 100% auto;
+      }
+
+      .login{
+
+          width: 75%;
+          display:block;
+          margin:auto;
+          float: center;
+
+          border-radius:20px;
+      }
+
+      .login-button{
+          text-align: center;
+      }
+
+      .singinup-button{
+          text-align: center;
+
+      }
+
+  }
+
+

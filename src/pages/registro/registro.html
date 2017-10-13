@@ -1,0 +1,41 @@
+
+
+  <ion-content class="content">
+
+        <h1>Registro</h1>
+
+
+            <ion-item >
+              <ion-label fixed>Nombre</ion-label>
+              <ion-input type="text" [(ngModel)]="nombre"></ion-input>
+            </ion-item>
+
+            <ion-item >
+                <ion-label fixed>Apellido</ion-label>
+                <ion-input type="text" [(ngModel)]="apellido"></ion-input>
+              </ion-item>
+
+              <ion-item >
+                  <ion-label fixed>Cedula</ion-label>
+                  <ion-input type="number" [(ngModel)]="cedula"></ion-input>
+                </ion-item>
+
+            <ion-item >
+              <ion-label fixed>Contraseña</ion-label>
+              <ion-input type="password" [(ngModel)]="contrasena"></ion-input>
+            </ion-item>
+
+            <ion-item >
+                <ion-label fixed>Celular</ion-label>
+                <ion-input type="number" [(ngModel)]="celular"></ion-input>
+              </ion-item>
+
+              <button ion-button class="boton_registro"
+              (click)="registrar()">
+              Registrar</button>
+
+
+
+
+      </ion-content>
+
